@@ -1,0 +1,1873 @@
+nohup: ignoring input
+/home/ec2-user/anaconda3/envs/pytorch_p310/lib/python3.10/site-packages/torch/cuda/__init__.py:61: FutureWarning: The pynvml package is deprecated. Please install nvidia-ml-py instead. If you did not install pynvml directly, please report this to the maintainers of the package that installed pynvml for you.
+  import pynvml  # type: ignore[import]
+[I 2025-11-26 16:37:52,591] A new study created in memory with name: no-name-12e3e331-1404-4273-b4c8-dee2ec78fb9c
+Downloading: "https://download.pytorch.org/models/convnext_tiny-983f1562.pth" to /home/ec2-user/.cache/torch/hub/checkpoints/convnext_tiny-983f1562.pth
+사용 장치: cuda
+Warning: Deleting recurring system folder preprocesed_dataset/.ipynb_checkpoints...
+Cleanup complete.
+  0%|                                                                                                                                      | 0.00/109M [00:00<?, ?B/s] 19%|███████████████████████▋                                                                                                      | 20.5M/109M [00:00<00:00, 214MB/s] 52%|█████████████████████████████████████████████████████████████████▌                                                            | 56.8M/109M [00:00<00:00, 311MB/s] 85%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▌                  | 93.1M/109M [00:00<00:00, 343MB/s]100%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 109M/109M [00:00<00:00, 332MB/s]
+Epoch 1/15
+----------
+train Loss: 0.4495 Acc: 0.8535
+val Loss: 0.2767 Acc: 0.9054
+Epoch 2/15
+----------
+train Loss: 0.2729 Acc: 0.9059
+val Loss: 0.2344 Acc: 0.9195
+Epoch 3/15
+----------
+train Loss: 0.2439 Acc: 0.9150
+val Loss: 0.2164 Acc: 0.9250
+Epoch 4/15
+----------
+train Loss: 0.2284 Acc: 0.9203
+val Loss: 0.2056 Acc: 0.9285
+Epoch 5/15
+----------
+train Loss: 0.2183 Acc: 0.9236
+val Loss: 0.1989 Acc: 0.9314
+Epoch 6/15
+----------
+train Loss: 0.2130 Acc: 0.9253
+val Loss: 0.1941 Acc: 0.9340
+Epoch 7/15
+----------
+train Loss: 0.2075 Acc: 0.9275
+val Loss: 0.1899 Acc: 0.9350
+Epoch 8/15
+----------
+train Loss: 0.2035 Acc: 0.9287
+val Loss: 0.1882 Acc: 0.9353
+성능 향상 X, 스탑 카운터 : 1
+Epoch 9/15
+----------
+train Loss: 0.2022 Acc: 0.9286
+val Loss: 0.1879 Acc: 0.9354
+성능 향상 X, 스탑 카운터 : 2
+Epoch 10/15
+----------
+train Loss: 0.2029 Acc: 0.9288
+val Loss: 0.1876 Acc: 0.9355
+성능 향상 X, 스탑 카운터 : 3
+Epoch 11/15
+----------
+train Loss: 0.2012 Acc: 0.9291
+[I 2025-11-26 17:22:43,019] Trial 0 finished with value: 0.9350094152374167 and parameters: {'lr': 0.00033875905054619245, 'model_name': 'convnext_tiny', 'epochs': 16, 'jitter_strength': 0.15630869188370264, 'scheduler_step': 7, 'weight_decay': 2.488305222500165e-06, 'optimizer': 'Adam'}. Best is trial 0 with value: 0.9350094152374167.
+Downloading: "https://download.pytorch.org/models/mobilenet_v3_large-8738ca79.pth" to /home/ec2-user/.cache/torch/hub/checkpoints/mobilenet_v3_large-8738ca79.pth
+val Loss: 0.1871 Acc: 0.9353
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 44m 49s
+Best val Acc: 0.9350
+  0%|                                                                                                                                     | 0.00/21.1M [00:00<?, ?B/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21.1M/21.1M [00:00<00:00, 253MB/s]
+Epoch 1/15
+----------
+train Loss: 1.0339 Acc: 0.6827
+val Loss: 0.6770 Acc: 0.7836
+Epoch 2/15
+----------
+train Loss: 0.6271 Acc: 0.7914
+val Loss: 0.5497 Acc: 0.8164
+Epoch 3/15
+----------
+train Loss: 0.5473 Acc: 0.8124
+val Loss: 0.4983 Acc: 0.8284
+Epoch 4/15
+----------
+train Loss: 0.5107 Acc: 0.8227
+val Loss: 0.4680 Acc: 0.8376
+Epoch 5/15
+----------
+train Loss: 0.4878 Acc: 0.8287
+val Loss: 0.4479 Acc: 0.8443
+Epoch 6/15
+----------
+train Loss: 0.4718 Acc: 0.8334
+val Loss: 0.4331 Acc: 0.8480
+Epoch 7/15
+----------
+train Loss: 0.4634 Acc: 0.8354
+val Loss: 0.4323 Acc: 0.8487
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.4625 Acc: 0.8362
+val Loss: 0.4307 Acc: 0.8492
+Epoch 9/15
+----------
+train Loss: 0.4610 Acc: 0.8371
+val Loss: 0.4294 Acc: 0.8493
+성능 향상 X, 스탑 카운터 : 1
+Epoch 10/15
+----------
+train Loss: 0.4602 Acc: 0.8379
+val Loss: 0.4297 Acc: 0.8494
+성능 향상 X, 스탑 카운터 : 2
+Epoch 11/15
+----------
+train Loss: 0.4591 Acc: 0.8374
+val Loss: 0.4269 Acc: 0.8499
+성능 향상 X, 스탑 카운터 : 3
+Epoch 12/15
+----------
+train Loss: 0.4580 Acc: 0.8372
+[I 2025-11-26 17:43:47,375] Trial 1 finished with value: 0.8491526286325003 and parameters: {'lr': 6.700068437592639e-05, 'model_name': 'mobilenet_v3', 'epochs': 12, 'jitter_strength': 0.17053017870026912, 'scheduler_step': 6, 'weight_decay': 1.2547642477798065e-06, 'optimizer': 'Adam'}. Best is trial 0 with value: 0.9350094152374167.
+val Loss: 0.4261 Acc: 0.8500
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 21m 4s
+Best val Acc: 0.8492
+Epoch 1/15
+----------
+train Loss: 1.7240 Acc: 0.4640
+val Loss: 1.3810 Acc: 0.6278
+Epoch 2/15
+----------
+train Loss: 1.2470 Acc: 0.6516
+val Loss: 1.1065 Acc: 0.6957
+Epoch 3/15
+----------
+train Loss: 1.0544 Acc: 0.6967
+val Loss: 0.9703 Acc: 0.7211
+Epoch 4/15
+----------
+train Loss: 0.9503 Acc: 0.7188
+val Loss: 0.8852 Acc: 0.7391
+Epoch 5/15
+----------
+train Loss: 0.8822 Acc: 0.7314
+val Loss: 0.8284 Acc: 0.7495
+Epoch 6/15
+----------
+train Loss: 0.8345 Acc: 0.7412
+val Loss: 0.7878 Acc: 0.7575
+Epoch 7/15
+----------
+train Loss: 0.7972 Acc: 0.7493
+val Loss: 0.7551 Acc: 0.7637
+Epoch 8/15
+----------
+train Loss: 0.7683 Acc: 0.7570
+val Loss: 0.7280 Acc: 0.7707
+Epoch 9/15
+----------
+train Loss: 0.7445 Acc: 0.7608
+val Loss: 0.7072 Acc: 0.7751
+Epoch 10/15
+----------
+train Loss: 0.7240 Acc: 0.7667
+val Loss: 0.6870 Acc: 0.7803
+Epoch 11/15
+----------
+train Loss: 0.7136 Acc: 0.7692
+val Loss: 0.6863 Acc: 0.7812
+성능 향상 X, 스탑 카운터 : 1
+Epoch 12/15
+----------
+train Loss: 0.7124 Acc: 0.7695
+val Loss: 0.6839 Acc: 0.7807
+성능 향상 X, 스탑 카운터 : 2
+Epoch 13/15
+----------
+train Loss: 0.7098 Acc: 0.7704
+val Loss: 0.6830 Acc: 0.7807
+성능 향상 X, 스탑 카운터 : 3
+Epoch 14/15
+----------
+train Loss: 0.7082 Acc: 0.7711
+val Loss: 0.6795 Acc: 0.7814
+Epoch 15/15
+----------
+train Loss: 0.7067 Acc: 0.7717
+[I 2025-11-26 18:10:02,976] Trial 2 finished with value: 0.7829915008397373 and parameters: {'lr': 3.3810749848411584e-05, 'model_name': 'mobilenet_v3', 'epochs': 17, 'jitter_strength': 0.3247824591229054, 'scheduler_step': 10, 'weight_decay': 0.00034339344941799213, 'optimizer': 'SGD'}. Best is trial 0 with value: 0.9350094152374167.
+val Loss: 0.6787 Acc: 0.7830
+Training complete in 26m 15s
+Best val Acc: 0.7830
+Epoch 1/15
+----------
+train Loss: 1.1745 Acc: 0.6401
+val Loss: 0.6858 Acc: 0.7997
+Epoch 2/15
+----------
+train Loss: 0.6042 Acc: 0.8153
+val Loss: 0.4815 Acc: 0.8479
+Epoch 3/15
+----------
+train Loss: 0.4697 Acc: 0.8494
+val Loss: 0.4020 Acc: 0.8699
+Epoch 4/15
+----------
+train Loss: 0.4069 Acc: 0.8654
+val Loss: 0.3590 Acc: 0.8824
+Epoch 5/15
+----------
+train Loss: 0.3688 Acc: 0.8759
+val Loss: 0.3315 Acc: 0.8893
+Epoch 6/15
+----------
+train Loss: 0.3455 Acc: 0.8822
+val Loss: 0.3124 Acc: 0.8944
+Epoch 7/15
+----------
+train Loss: 0.3269 Acc: 0.8885
+val Loss: 0.2982 Acc: 0.8992
+Epoch 8/15
+----------
+train Loss: 0.3179 Acc: 0.8918
+val Loss: 0.2967 Acc: 0.8997
+성능 향상 X, 스탑 카운터 : 1
+Epoch 9/15
+----------
+train Loss: 0.3166 Acc: 0.8919
+val Loss: 0.2955 Acc: 0.9004
+Epoch 10/15
+----------
+train Loss: 0.3162 Acc: 0.8918
+val Loss: 0.2943 Acc: 0.9008
+성능 향상 X, 스탑 카운터 : 1
+Epoch 11/15
+----------
+train Loss: 0.3142 Acc: 0.8929
+val Loss: 0.2931 Acc: 0.9008
+성능 향상 X, 스탑 카운터 : 2
+Epoch 12/15
+----------
+train Loss: 0.3132 Acc: 0.8931
+val Loss: 0.2919 Acc: 0.9014
+Epoch 13/15
+----------
+train Loss: 0.3119 Acc: 0.8938
+val Loss: 0.2908 Acc: 0.9016
+성능 향상 X, 스탑 카운터 : 1
+Epoch 14/15
+----------
+train Loss: 0.3111 Acc: 0.8940
+val Loss: 0.2897 Acc: 0.9017
+성능 향상 X, 스탑 카운터 : 2
+Epoch 15/15
+----------
+train Loss: 0.3098 Acc: 0.8943
+[I 2025-11-26 19:08:44,162] Trial 3 finished with value: 0.9014199195887831 and parameters: {'lr': 3.046653632014673e-05, 'model_name': 'convnext_tiny', 'epochs': 13, 'jitter_strength': 0.3580587224351426, 'scheduler_step': 7, 'weight_decay': 3.5528272107333555e-06, 'optimizer': 'AdamW'}. Best is trial 0 with value: 0.9350094152374167.
+val Loss: 0.2895 Acc: 0.9017
+성능 향상 X, 스탑 카운터 : 3
+Training complete in 58m 41s
+Best val Acc: 0.9014
+Epoch 1/15
+----------
+train Loss: 1.4673 Acc: 0.5562
+val Loss: 0.9936 Acc: 0.7372
+Epoch 2/15
+----------
+train Loss: 0.8566 Acc: 0.7613
+val Loss: 0.6863 Acc: 0.8008
+Epoch 3/15
+----------
+train Loss: 0.6490 Acc: 0.8057
+val Loss: 0.5498 Acc: 0.8309
+Epoch 4/15
+----------
+train Loss: 0.5428 Acc: 0.8317
+val Loss: 0.4740 Acc: 0.8490
+Epoch 5/15
+----------
+train Loss: 0.4784 Acc: 0.8464
+val Loss: 0.4265 Acc: 0.8620
+Epoch 6/15
+----------
+train Loss: 0.4378 Acc: 0.8570
+val Loss: 0.3944 Acc: 0.8710
+Epoch 7/15
+----------
+train Loss: 0.4199 Acc: 0.8610
+val Loss: 0.3916 Acc: 0.8724
+Epoch 8/15
+----------
+train Loss: 0.4168 Acc: 0.8623
+val Loss: 0.3889 Acc: 0.8730
+성능 향상 X, 스탑 카운터 : 1
+Epoch 9/15
+----------
+train Loss: 0.4140 Acc: 0.8630
+val Loss: 0.3863 Acc: 0.8735
+Epoch 10/15
+----------
+train Loss: 0.4108 Acc: 0.8644
+val Loss: 0.3837 Acc: 0.8742
+성능 향상 X, 스탑 카운터 : 1
+Epoch 11/15
+----------
+train Loss: 0.4083 Acc: 0.8653
+val Loss: 0.3812 Acc: 0.8752
+Epoch 12/15
+----------
+train Loss: 0.4055 Acc: 0.8659
+val Loss: 0.3788 Acc: 0.8757
+성능 향상 X, 스탑 카운터 : 1
+Epoch 13/15
+----------
+train Loss: 0.4042 Acc: 0.8652
+val Loss: 0.3786 Acc: 0.8757
+성능 향상 X, 스탑 카운터 : 2
+Epoch 14/15
+----------
+train Loss: 0.4041 Acc: 0.8665
+val Loss: 0.3784 Acc: 0.8758
+성능 향상 X, 스탑 카운터 : 3
+Epoch 15/15
+----------
+train Loss: 0.4042 Acc: 0.8657
+[I 2025-11-26 20:07:24,797] Trial 4 finished with value: 0.8752099343478039 and parameters: {'lr': 1.4235218356839661e-05, 'model_name': 'convnext_tiny', 'epochs': 16, 'jitter_strength': 0.3316105631283779, 'scheduler_step': 6, 'weight_decay': 3.4881247059457926e-06, 'optimizer': 'AdamW'}. Best is trial 0 with value: 0.9350094152374167.
+Downloading: "https://download.pytorch.org/models/efficientnet_b0_rwightman-7f5810bc.pth" to /home/ec2-user/.cache/torch/hub/checkpoints/efficientnet_b0_rwightman-7f5810bc.pth
+val Loss: 0.3781 Acc: 0.8759
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 58m 40s
+Best val Acc: 0.8752
+  0%|                                                                                                                                     | 0.00/20.5M [00:00<?, ?B/s] 65%|█████████████████████████████████████████████████████████████████████████████████▊                                           | 13.4M/20.5M [00:00<00:00, 140MB/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 20.5M/20.5M [00:00<00:00, 138MB/s]
+Epoch 1/15
+----------
+train Loss: 1.3150 Acc: 0.5846
+val Loss: 0.9684 Acc: 0.7209
+Epoch 2/15
+----------
+train Loss: 0.9092 Acc: 0.7200
+val Loss: 0.7871 Acc: 0.7617
+Epoch 3/15
+----------
+train Loss: 0.7971 Acc: 0.7456
+val Loss: 0.7134 Acc: 0.7722
+Epoch 4/15
+----------
+train Loss: 0.7373 Acc: 0.7586
+val Loss: 0.6599 Acc: 0.7855
+Epoch 5/15
+----------
+train Loss: 0.6985 Acc: 0.7696
+[I 2025-11-26 20:18:46,376] Trial 5 pruned. 
+val Loss: 0.6278 Acc: 0.7937
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 1.4678 Acc: 0.5309
+val Loss: 1.0209 Acc: 0.7214
+Epoch 2/15
+----------
+train Loss: 0.8773 Acc: 0.7558
+val Loss: 0.7015 Acc: 0.7973
+Epoch 3/15
+----------
+train Loss: 0.6623 Acc: 0.8023
+val Loss: 0.5602 Acc: 0.8289
+Epoch 4/15
+----------
+train Loss: 0.5522 Acc: 0.8286
+val Loss: 0.4817 Acc: 0.8480
+Epoch 5/15
+----------
+train Loss: 0.4877 Acc: 0.8443
+[I 2025-11-26 20:38:20,300] Trial 6 pruned. 
+val Loss: 0.4329 Acc: 0.8606
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.8152 Acc: 0.7335
+val Loss: 0.5499 Acc: 0.8162
+Epoch 2/15
+----------
+train Loss: 0.5609 Acc: 0.8050
+val Loss: 0.4757 Acc: 0.8334
+Epoch 3/15
+----------
+train Loss: 0.5170 Acc: 0.8161
+val Loss: 0.4421 Acc: 0.8459
+Epoch 4/15
+----------
+train Loss: 0.4973 Acc: 0.8230
+val Loss: 0.4344 Acc: 0.8463
+성능 향상 X, 스탑 카운터 : 1
+Epoch 5/15
+----------
+train Loss: 0.4821 Acc: 0.8262
+[I 2025-11-26 20:49:41,458] Trial 7 pruned. 
+val Loss: 0.4195 Acc: 0.8526
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 1.5133 Acc: 0.5132
+val Loss: 1.1782 Acc: 0.6764
+Epoch 2/15
+----------
+train Loss: 1.0802 Acc: 0.6849
+val Loss: 0.9369 Acc: 0.7316
+Epoch 3/15
+----------
+train Loss: 0.9343 Acc: 0.7177
+val Loss: 0.8437 Acc: 0.7488
+Epoch 4/15
+----------
+train Loss: 0.8563 Acc: 0.7328
+val Loss: 0.7747 Acc: 0.7603
+Epoch 5/15
+----------
+train Loss: 0.8047 Acc: 0.7436
+[I 2025-11-26 21:01:03,607] Trial 8 pruned. 
+val Loss: 0.7302 Acc: 0.7689
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.7993 Acc: 0.7626
+val Loss: 0.4466 Acc: 0.8560
+Epoch 2/15
+----------
+train Loss: 0.4143 Acc: 0.8639
+val Loss: 0.3456 Acc: 0.8848
+Epoch 3/15
+----------
+train Loss: 0.3450 Acc: 0.8833
+val Loss: 0.3037 Acc: 0.8970
+Epoch 4/15
+----------
+train Loss: 0.3227 Acc: 0.8905
+val Loss: 0.3005 Acc: 0.8972
+성능 향상 X, 스탑 카운터 : 1
+Epoch 5/15
+----------
+train Loss: 0.3187 Acc: 0.8922
+val Loss: 0.2973 Acc: 0.8983
+Epoch 6/15
+----------
+train Loss: 0.3161 Acc: 0.8926
+val Loss: 0.2943 Acc: 0.8994
+Epoch 7/15
+----------
+train Loss: 0.3143 Acc: 0.8929
+val Loss: 0.2940 Acc: 0.8993
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.3140 Acc: 0.8932
+val Loss: 0.2937 Acc: 0.8995
+성능 향상 X, 스탑 카운터 : 2
+Epoch 9/15
+----------
+train Loss: 0.3141 Acc: 0.8928
+val Loss: 0.2934 Acc: 0.8995
+성능 향상 X, 스탑 카운터 : 3
+Epoch 10/15
+----------
+train Loss: 0.3128 Acc: 0.8931
+[I 2025-11-26 21:40:15,873] Trial 9 finished with value: 0.899384192579775 and parameters: {'lr': 7.416892371177872e-05, 'model_name': 'convnext_tiny', 'epochs': 12, 'jitter_strength': 0.0303509671284036, 'scheduler_step': 3, 'weight_decay': 0.0001943349117670021, 'optimizer': 'Adam'}. Best is trial 0 with value: 0.9350094152374167.
+Downloading: "https://download.pytorch.org/models/resnet50-0676ba61.pth" to /home/ec2-user/.cache/torch/hub/checkpoints/resnet50-0676ba61.pth
+val Loss: 0.2934 Acc: 0.8996
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 39m 12s
+Best val Acc: 0.8994
+  0%|                                                                                                                                     | 0.00/97.8M [00:00<?, ?B/s] 30%|█████████████████████████████████████                                                                                        | 29.0M/97.8M [00:00<00:00, 304MB/s] 74%|█████████████████████████████████████████████████████████████████████████████████████████████                                | 72.8M/97.8M [00:00<00:00, 394MB/s]100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 97.8M/97.8M [00:00<00:00, 391MB/s]
+Epoch 1/15
+----------
+train Loss: 0.4741 Acc: 0.8336
+val Loss: 0.3839 Acc: 0.8671
+Epoch 2/15
+----------
+train Loss: 0.3658 Acc: 0.8694
+val Loss: 0.3503 Acc: 0.8779
+Epoch 3/15
+----------
+train Loss: 0.3488 Acc: 0.8763
+val Loss: 0.3546 Acc: 0.8726
+성능 향상 X, 스탑 카운터 : 1
+Epoch 4/15
+----------
+train Loss: 0.3242 Acc: 0.8872
+val Loss: 0.3203 Acc: 0.8913
+Epoch 5/15
+----------
+train Loss: 0.3218 Acc: 0.8882
+val Loss: 0.3165 Acc: 0.8936
+Epoch 6/15
+----------
+train Loss: 0.3209 Acc: 0.8895
+val Loss: 0.3166 Acc: 0.8930
+성능 향상 X, 스탑 카운터 : 1
+Epoch 7/15
+----------
+train Loss: 0.3181 Acc: 0.8905
+val Loss: 0.3207 Acc: 0.8913
+성능 향상 X, 스탑 카운터 : 2
+Epoch 8/15
+----------
+train Loss: 0.3173 Acc: 0.8909
+val Loss: 0.3173 Acc: 0.8930
+성능 향상 X, 스탑 카운터 : 3
+Epoch 9/15
+----------
+train Loss: 0.3178 Acc: 0.8905
+[I 2025-11-26 22:14:00,591] Trial 10 finished with value: 0.893582370604102 and parameters: {'lr': 0.0008488709681157188, 'model_name': 'resnet50', 'epochs': 20, 'jitter_strength': 0.24405475543623686, 'scheduler_step': 3, 'weight_decay': 0.002840711276626809, 'optimizer': 'Adam'}. Best is trial 0 with value: 0.9350094152374167.
+val Loss: 0.3157 Acc: 0.8934
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 33m 44s
+Best val Acc: 0.8936
+Epoch 1/15
+----------
+train Loss: 0.3447 Acc: 0.8828
+val Loss: 0.2326 Acc: 0.9181
+Epoch 2/15
+----------
+train Loss: 0.2343 Acc: 0.9179
+val Loss: 0.2038 Acc: 0.9287
+Epoch 3/15
+----------
+train Loss: 0.2155 Acc: 0.9242
+val Loss: 0.1924 Acc: 0.9328
+Epoch 4/15
+----------
+train Loss: 0.2065 Acc: 0.9270
+val Loss: 0.1855 Acc: 0.9362
+Epoch 5/15
+----------
+train Loss: 0.2004 Acc: 0.9290
+val Loss: 0.1826 Acc: 0.9377
+Epoch 6/15
+----------
+train Loss: 0.1967 Acc: 0.9303
+val Loss: 0.1798 Acc: 0.9391
+Epoch 7/15
+----------
+train Loss: 0.1938 Acc: 0.9311
+val Loss: 0.1753 Acc: 0.9391
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.1924 Acc: 0.9322
+val Loss: 0.1746 Acc: 0.9398
+성능 향상 X, 스탑 카운터 : 2
+Epoch 9/15
+----------
+train Loss: 0.1856 Acc: 0.9342
+val Loss: 0.1729 Acc: 0.9407
+Epoch 10/15
+----------
+train Loss: 0.1847 Acc: 0.9355
+val Loss: 0.1723 Acc: 0.9405
+성능 향상 X, 스탑 카운터 : 1
+Epoch 11/15
+----------
+train Loss: 0.1856 Acc: 0.9341
+val Loss: 0.1723 Acc: 0.9412
+성능 향상 X, 스탑 카운터 : 2
+Epoch 12/15
+----------
+train Loss: 0.1853 Acc: 0.9345
+val Loss: 0.1723 Acc: 0.9408
+성능 향상 X, 스탑 카운터 : 3
+Epoch 13/15
+----------
+train Loss: 0.1846 Acc: 0.9347
+[I 2025-11-26 23:04:57,509] Trial 11 finished with value: 0.9407094508626392 and parameters: {'lr': 0.000833807522805389, 'model_name': 'convnext_tiny', 'epochs': 14, 'jitter_strength': 0.38499696440689746, 'scheduler_step': 8, 'weight_decay': 4.735869123069294e-06, 'optimizer': 'AdamW'}. Best is trial 11 with value: 0.9407094508626392.
+val Loss: 0.1722 Acc: 0.9412
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 50m 56s
+Best val Acc: 0.9407
+Epoch 1/15
+----------
+train Loss: 0.3601 Acc: 0.8793
+val Loss: 0.2364 Acc: 0.9180
+Epoch 2/15
+----------
+train Loss: 0.2396 Acc: 0.9164
+val Loss: 0.2073 Acc: 0.9277
+Epoch 3/15
+----------
+train Loss: 0.2193 Acc: 0.9230
+val Loss: 0.1950 Acc: 0.9325
+Epoch 4/15
+----------
+train Loss: 0.2098 Acc: 0.9263
+val Loss: 0.1892 Acc: 0.9345
+Epoch 5/15
+----------
+train Loss: 0.2034 Acc: 0.9283
+val Loss: 0.1845 Acc: 0.9366
+Epoch 6/15
+----------
+train Loss: 0.1990 Acc: 0.9296
+val Loss: 0.1817 Acc: 0.9383
+Epoch 7/15
+----------
+train Loss: 0.1951 Acc: 0.9306
+val Loss: 0.1806 Acc: 0.9381
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.1931 Acc: 0.9317
+val Loss: 0.1784 Acc: 0.9390
+성능 향상 X, 스탑 카운터 : 2
+Epoch 9/15
+----------
+train Loss: 0.1880 Acc: 0.9337
+val Loss: 0.1756 Acc: 0.9398
+Epoch 10/15
+----------
+train Loss: 0.1879 Acc: 0.9333
+val Loss: 0.1750 Acc: 0.9396
+성능 향상 X, 스탑 카운터 : 1
+Epoch 11/15
+----------
+train Loss: 0.1871 Acc: 0.9340
+val Loss: 0.1745 Acc: 0.9396
+성능 향상 X, 스탑 카운터 : 2
+Epoch 12/15
+----------
+train Loss: 0.1865 Acc: 0.9346
+val Loss: 0.1744 Acc: 0.9404
+성능 향상 X, 스탑 카운터 : 3
+Epoch 13/15
+----------
+train Loss: 0.1866 Acc: 0.9345
+[I 2025-11-26 23:55:57,368] Trial 12 finished with value: 0.9397933737085856 and parameters: {'lr': 0.0007028139922468521, 'model_name': 'convnext_tiny', 'epochs': 14, 'jitter_strength': 0.24719451205713014, 'scheduler_step': 8, 'weight_decay': 1.1792514651876493e-05, 'optimizer': 'AdamW'}. Best is trial 11 with value: 0.9407094508626392.
+val Loss: 0.1739 Acc: 0.9407
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 50m 59s
+Best val Acc: 0.9398
+Epoch 1/15
+----------
+train Loss: 0.4644 Acc: 0.8361
+val Loss: 0.3730 Acc: 0.8673
+Epoch 2/15
+----------
+train Loss: 0.3473 Acc: 0.8743
+val Loss: 0.3242 Acc: 0.8836
+Epoch 3/15
+----------
+train Loss: 0.3223 Acc: 0.8840
+val Loss: 0.3105 Acc: 0.8903
+Epoch 4/15
+----------
+train Loss: 0.3051 Acc: 0.8896
+val Loss: 0.2964 Acc: 0.8929
+Epoch 5/15
+----------
+train Loss: 0.2908 Acc: 0.8955
+val Loss: 0.2775 Acc: 0.9034
+Epoch 6/15
+----------
+train Loss: 0.2820 Acc: 0.8982
+val Loss: 0.2745 Acc: 0.9035
+성능 향상 X, 스탑 카운터 : 1
+Epoch 7/15
+----------
+train Loss: 0.2752 Acc: 0.9010
+val Loss: 0.2708 Acc: 0.9059
+Epoch 8/15
+----------
+train Loss: 0.2661 Acc: 0.9042
+val Loss: 0.2638 Acc: 0.9069
+성능 향상 X, 스탑 카운터 : 1
+Epoch 9/15
+----------
+train Loss: 0.2461 Acc: 0.9125
+val Loss: 0.2529 Acc: 0.9124
+Epoch 10/15
+----------
+train Loss: 0.2444 Acc: 0.9135
+val Loss: 0.2537 Acc: 0.9113
+성능 향상 X, 스탑 카운터 : 1
+Epoch 11/15
+----------
+train Loss: 0.2436 Acc: 0.9137
+val Loss: 0.2525 Acc: 0.9123
+성능 향상 X, 스탑 카운터 : 2
+Epoch 12/15
+----------
+train Loss: 0.2421 Acc: 0.9139
+val Loss: 0.2502 Acc: 0.9128
+성능 향상 X, 스탑 카운터 : 3
+Epoch 13/15
+----------
+train Loss: 0.2409 Acc: 0.9146
+[I 2025-11-27 00:44:48,866] Trial 13 finished with value: 0.9123619522622016 and parameters: {'lr': 0.0009460626711550863, 'model_name': 'resnet50', 'epochs': 14, 'jitter_strength': 0.3814508009052948, 'scheduler_step': 8, 'weight_decay': 1.891483136354415e-05, 'optimizer': 'AdamW'}. Best is trial 11 with value: 0.9407094508626392.
+val Loss: 0.2487 Acc: 0.9127
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 48m 51s
+Best val Acc: 0.9124
+Epoch 1/15
+----------
+train Loss: 0.4000 Acc: 0.8666
+val Loss: 0.2559 Acc: 0.9115
+Epoch 2/15
+----------
+train Loss: 0.2529 Acc: 0.9122
+val Loss: 0.2193 Acc: 0.9246
+Epoch 3/15
+----------
+train Loss: 0.2287 Acc: 0.9200
+val Loss: 0.2029 Acc: 0.9305
+Epoch 4/15
+----------
+train Loss: 0.2163 Acc: 0.9240
+val Loss: 0.1945 Acc: 0.9334
+Epoch 5/15
+----------
+train Loss: 0.2092 Acc: 0.9264
+val Loss: 0.1918 Acc: 0.9339
+성능 향상 X, 스탑 카운터 : 1
+Epoch 6/15
+----------
+train Loss: 0.2037 Acc: 0.9284
+val Loss: 0.1858 Acc: 0.9365
+Epoch 7/15
+----------
+train Loss: 0.1999 Acc: 0.9291
+val Loss: 0.1844 Acc: 0.9375
+Epoch 8/15
+----------
+train Loss: 0.1973 Acc: 0.9302
+val Loss: 0.1796 Acc: 0.9374
+성능 향상 X, 스탑 카운터 : 1
+Epoch 9/15
+----------
+train Loss: 0.1948 Acc: 0.9310
+val Loss: 0.1782 Acc: 0.9387
+Epoch 10/15
+----------
+train Loss: 0.1893 Acc: 0.9337
+val Loss: 0.1772 Acc: 0.9390
+성능 향상 X, 스탑 카운터 : 1
+Epoch 11/15
+----------
+train Loss: 0.1898 Acc: 0.9329
+val Loss: 0.1769 Acc: 0.9393
+성능 향상 X, 스탑 카운터 : 2
+Epoch 12/15
+----------
+train Loss: 0.1890 Acc: 0.9331
+val Loss: 0.1765 Acc: 0.9393
+성능 향상 X, 스탑 카운터 : 3
+Epoch 13/15
+----------
+train Loss: 0.1893 Acc: 0.9332
+[I 2025-11-27 01:35:49,435] Trial 14 finished with value: 0.9386737238536311 and parameters: {'lr': 0.0005067817520137095, 'model_name': 'convnext_tiny', 'epochs': 14, 'jitter_strength': 0.24507735344268147, 'scheduler_step': 9, 'weight_decay': 9.031473603926573e-06, 'optimizer': 'AdamW'}. Best is trial 11 with value: 0.9407094508626392.
+val Loss: 0.1763 Acc: 0.9395
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 51m 0s
+Best val Acc: 0.9387
+Epoch 1/15
+----------
+train Loss: 0.3927 Acc: 0.8707
+val Loss: 0.2506 Acc: 0.9142
+Epoch 2/15
+----------
+train Loss: 0.2507 Acc: 0.9132
+val Loss: 0.2170 Acc: 0.9258
+Epoch 3/15
+----------
+train Loss: 0.2281 Acc: 0.9199
+val Loss: 0.2020 Acc: 0.9305
+Epoch 4/15
+----------
+train Loss: 0.2167 Acc: 0.9239
+val Loss: 0.1951 Acc: 0.9322
+Epoch 5/15
+----------
+train Loss: 0.2083 Acc: 0.9269
+val Loss: 0.1883 Acc: 0.9346
+Epoch 6/15
+----------
+train Loss: 0.2032 Acc: 0.9287
+val Loss: 0.1855 Acc: 0.9357
+Epoch 7/15
+----------
+train Loss: 0.2000 Acc: 0.9298
+val Loss: 0.1818 Acc: 0.9387
+Epoch 8/15
+----------
+train Loss: 0.1969 Acc: 0.9307
+val Loss: 0.1808 Acc: 0.9383
+성능 향상 X, 스탑 카운터 : 1
+Epoch 9/15
+----------
+train Loss: 0.1929 Acc: 0.9319
+val Loss: 0.1787 Acc: 0.9393
+성능 향상 X, 스탑 카운터 : 2
+Epoch 10/15
+----------
+train Loss: 0.1919 Acc: 0.9326
+val Loss: 0.1778 Acc: 0.9389
+성능 향상 X, 스탑 카운터 : 3
+Epoch 11/15
+----------
+train Loss: 0.1908 Acc: 0.9328
+[I 2025-11-27 02:19:00,368] Trial 15 finished with value: 0.9386737238536311 and parameters: {'lr': 0.000520470654531155, 'model_name': 'convnext_tiny', 'epochs': 10, 'jitter_strength': 0.2857795014699202, 'scheduler_step': 8, 'weight_decay': 6.403439326642254e-05, 'optimizer': 'AdamW'}. Best is trial 11 with value: 0.9407094508626392.
+val Loss: 0.1777 Acc: 0.9395
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 43m 11s
+Best val Acc: 0.9387
+Epoch 1/15
+----------
+train Loss: 0.6250 Acc: 0.8067
+val Loss: 0.3534 Acc: 0.8841
+Epoch 2/15
+----------
+train Loss: 0.3378 Acc: 0.8864
+val Loss: 0.2872 Acc: 0.9039
+Epoch 3/15
+----------
+train Loss: 0.2914 Acc: 0.9002
+val Loss: 0.2576 Acc: 0.9111
+Epoch 4/15
+----------
+train Loss: 0.2663 Acc: 0.9089
+val Loss: 0.2406 Acc: 0.9166
+Epoch 5/15
+----------
+train Loss: 0.2525 Acc: 0.9126
+val Loss: 0.2282 Acc: 0.9210
+Epoch 6/15
+----------
+train Loss: 0.2452 Acc: 0.9153
+val Loss: 0.2268 Acc: 0.9218
+성능 향상 X, 스탑 카운터 : 1
+Epoch 7/15
+----------
+train Loss: 0.2440 Acc: 0.9158
+val Loss: 0.2260 Acc: 0.9224
+Epoch 8/15
+----------
+train Loss: 0.2417 Acc: 0.9163
+val Loss: 0.2250 Acc: 0.9223
+성능 향상 X, 스탑 카운터 : 1
+Epoch 9/15
+----------
+train Loss: 0.2415 Acc: 0.9168
+val Loss: 0.2243 Acc: 0.9232
+성능 향상 X, 스탑 카운터 : 2
+Epoch 10/15
+----------
+train Loss: 0.2402 Acc: 0.9170
+val Loss: 0.2232 Acc: 0.9231
+성능 향상 X, 스탑 카운터 : 3
+Epoch 11/15
+----------
+train Loss: 0.2397 Acc: 0.9171
+[I 2025-11-27 03:02:11,233] Trial 16 pruned. 
+val Loss: 0.2231 Acc: 0.9232
+Trial pruned at epoch 10
+Epoch 1/15
+----------
+train Loss: 0.4946 Acc: 0.8283
+val Loss: 0.3751 Acc: 0.8688
+Epoch 2/15
+----------
+train Loss: 0.3636 Acc: 0.8694
+val Loss: 0.3470 Acc: 0.8747
+Epoch 3/15
+----------
+train Loss: 0.3344 Acc: 0.8802
+val Loss: 0.3249 Acc: 0.8845
+Epoch 4/15
+----------
+train Loss: 0.3188 Acc: 0.8852
+val Loss: 0.3165 Acc: 0.8882
+Epoch 5/15
+----------
+train Loss: 0.3052 Acc: 0.8898
+[I 2025-11-27 03:21:00,524] Trial 17 pruned. 
+val Loss: 0.2928 Acc: 0.8984
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.6612 Acc: 0.7811
+val Loss: 0.4655 Acc: 0.8399
+Epoch 2/15
+----------
+train Loss: 0.4708 Acc: 0.8342
+val Loss: 0.4142 Acc: 0.8535
+Epoch 3/15
+----------
+train Loss: 0.4425 Acc: 0.8421
+val Loss: 0.3928 Acc: 0.8615
+Epoch 4/15
+----------
+train Loss: 0.4311 Acc: 0.8448
+val Loss: 0.3815 Acc: 0.8643
+Epoch 5/15
+----------
+train Loss: 0.4234 Acc: 0.8465
+[I 2025-11-27 03:29:46,263] Trial 18 pruned. 
+val Loss: 0.3765 Acc: 0.8645
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.3606 Acc: 0.8787
+val Loss: 0.2381 Acc: 0.9169
+Epoch 2/15
+----------
+train Loss: 0.2394 Acc: 0.9162
+val Loss: 0.2081 Acc: 0.9282
+Epoch 3/15
+----------
+train Loss: 0.2202 Acc: 0.9225
+val Loss: 0.1974 Acc: 0.9315
+Epoch 4/15
+----------
+train Loss: 0.2097 Acc: 0.9262
+val Loss: 0.1894 Acc: 0.9338
+Epoch 5/15
+----------
+train Loss: 0.2035 Acc: 0.9284
+val Loss: 0.1830 Acc: 0.9358
+Epoch 6/15
+----------
+train Loss: 0.1961 Acc: 0.9311
+val Loss: 0.1816 Acc: 0.9366
+성능 향상 X, 스탑 카운터 : 1
+Epoch 7/15
+----------
+train Loss: 0.1943 Acc: 0.9314
+val Loss: 0.1810 Acc: 0.9376
+Epoch 8/15
+----------
+train Loss: 0.1948 Acc: 0.9319
+val Loss: 0.1807 Acc: 0.9376
+성능 향상 X, 스탑 카운터 : 1
+Epoch 9/15
+----------
+train Loss: 0.1943 Acc: 0.9317
+val Loss: 0.1801 Acc: 0.9376
+성능 향상 X, 스탑 카운터 : 2
+Epoch 10/15
+----------
+train Loss: 0.1938 Acc: 0.9318
+val Loss: 0.1797 Acc: 0.9383
+성능 향상 X, 스탑 카운터 : 3
+Epoch 11/15
+----------
+train Loss: 0.1929 Acc: 0.9323
+[I 2025-11-27 04:12:55,308] Trial 19 finished with value: 0.937604967173902 and parameters: {'lr': 0.0006924688345114204, 'model_name': 'convnext_tiny', 'epochs': 11, 'jitter_strength': 0.19974534557192974, 'scheduler_step': 5, 'weight_decay': 9.05454763462597e-06, 'optimizer': 'AdamW'}. Best is trial 11 with value: 0.9407094508626392.
+val Loss: 0.1797 Acc: 0.9381
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 43m 9s
+Best val Acc: 0.9376
+Epoch 1/15
+----------
+train Loss: 0.8777 Acc: 0.7310
+val Loss: 0.5694 Acc: 0.8203
+Epoch 2/15
+----------
+train Loss: 0.5374 Acc: 0.8270
+val Loss: 0.4592 Acc: 0.8495
+Epoch 3/15
+----------
+train Loss: 0.4621 Acc: 0.8478
+val Loss: 0.4102 Acc: 0.8650
+Epoch 4/15
+----------
+train Loss: 0.4224 Acc: 0.8599
+val Loss: 0.3811 Acc: 0.8738
+Epoch 5/15
+----------
+train Loss: 0.3970 Acc: 0.8675
+[I 2025-11-27 04:32:32,742] Trial 20 pruned. 
+val Loss: 0.3611 Acc: 0.8800
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.4145 Acc: 0.8627
+val Loss: 0.2601 Acc: 0.9091
+Epoch 2/15
+----------
+train Loss: 0.2591 Acc: 0.9100
+val Loss: 0.2253 Acc: 0.9214
+Epoch 3/15
+----------
+train Loss: 0.2322 Acc: 0.9195
+val Loss: 0.2073 Acc: 0.9286
+Epoch 4/15
+----------
+train Loss: 0.2199 Acc: 0.9233
+val Loss: 0.1987 Acc: 0.9311
+Epoch 5/15
+----------
+train Loss: 0.2122 Acc: 0.9251
+val Loss: 0.1917 Acc: 0.9333
+Epoch 6/15
+----------
+train Loss: 0.2062 Acc: 0.9277
+val Loss: 0.1875 Acc: 0.9356
+Epoch 7/15
+----------
+train Loss: 0.2027 Acc: 0.9288
+val Loss: 0.1847 Acc: 0.9361
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.1992 Acc: 0.9294
+val Loss: 0.1806 Acc: 0.9385
+Epoch 9/15
+----------
+train Loss: 0.1968 Acc: 0.9307
+val Loss: 0.1817 Acc: 0.9378
+성능 향상 X, 스탑 카운터 : 1
+Epoch 10/15
+----------
+train Loss: 0.1922 Acc: 0.9320
+val Loss: 0.1787 Acc: 0.9386
+성능 향상 X, 스탑 카운터 : 2
+Epoch 11/15
+----------
+train Loss: 0.1922 Acc: 0.9325
+val Loss: 0.1784 Acc: 0.9392
+성능 향상 X, 스탑 카운터 : 3
+Epoch 12/15
+----------
+train Loss: 0.1913 Acc: 0.9328
+[I 2025-11-27 05:19:41,760] Trial 21 finished with value: 0.9385210443279556 and parameters: {'lr': 0.00044903884594318466, 'model_name': 'convnext_tiny', 'epochs': 14, 'jitter_strength': 0.26765937713136123, 'scheduler_step': 9, 'weight_decay': 8.955072212174313e-06, 'optimizer': 'AdamW'}. Best is trial 11 with value: 0.9407094508626392.
+val Loss: 0.1780 Acc: 0.9390
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 47m 9s
+Best val Acc: 0.9385
+Epoch 1/15
+----------
+train Loss: 0.4196 Acc: 0.8608
+val Loss: 0.2636 Acc: 0.9086
+Epoch 2/15
+----------
+train Loss: 0.2617 Acc: 0.9089
+val Loss: 0.2246 Acc: 0.9225
+Epoch 3/15
+----------
+train Loss: 0.2351 Acc: 0.9178
+val Loss: 0.2104 Acc: 0.9280
+Epoch 4/15
+----------
+train Loss: 0.2220 Acc: 0.9224
+val Loss: 0.1987 Acc: 0.9315
+Epoch 5/15
+----------
+train Loss: 0.2141 Acc: 0.9246
+val Loss: 0.1934 Acc: 0.9324
+성능 향상 X, 스탑 카운터 : 1
+Epoch 6/15
+----------
+train Loss: 0.2081 Acc: 0.9267
+val Loss: 0.1883 Acc: 0.9352
+Epoch 7/15
+----------
+train Loss: 0.2033 Acc: 0.9283
+val Loss: 0.1849 Acc: 0.9360
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.2000 Acc: 0.9296
+val Loss: 0.1834 Acc: 0.9365
+Epoch 9/15
+----------
+train Loss: 0.1976 Acc: 0.9308
+val Loss: 0.1819 Acc: 0.9374
+성능 향상 X, 스탑 카운터 : 1
+Epoch 10/15
+----------
+train Loss: 0.1925 Acc: 0.9321
+val Loss: 0.1799 Acc: 0.9378
+Epoch 11/15
+----------
+train Loss: 0.1928 Acc: 0.9323
+val Loss: 0.1796 Acc: 0.9382
+성능 향상 X, 스탑 카운터 : 1
+Epoch 12/15
+----------
+train Loss: 0.1934 Acc: 0.9317
+val Loss: 0.1794 Acc: 0.9382
+성능 향상 X, 스탑 카운터 : 2
+Epoch 13/15
+----------
+train Loss: 0.1929 Acc: 0.9317
+val Loss: 0.1791 Acc: 0.9380
+성능 향상 X, 스탑 카운터 : 3
+Epoch 14/15
+----------
+train Loss: 0.1918 Acc: 0.9325
+[I 2025-11-27 06:14:36,391] Trial 22 finished with value: 0.9378085398748027 and parameters: {'lr': 0.00041418026213720907, 'model_name': 'convnext_tiny', 'epochs': 13, 'jitter_strength': 0.2454193361436407, 'scheduler_step': 9, 'weight_decay': 5.5809453976423775e-06, 'optimizer': 'AdamW'}. Best is trial 11 with value: 0.9407094508626392.
+val Loss: 0.1791 Acc: 0.9383
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 54m 54s
+Best val Acc: 0.9378
+Epoch 1/15
+----------
+train Loss: 0.3327 Acc: 0.8866
+val Loss: 0.2238 Acc: 0.9229
+Epoch 2/15
+----------
+train Loss: 0.2293 Acc: 0.9189
+val Loss: 0.1974 Acc: 0.9324
+Epoch 3/15
+----------
+train Loss: 0.2128 Acc: 0.9249
+val Loss: 0.1877 Acc: 0.9351
+Epoch 4/15
+----------
+train Loss: 0.2036 Acc: 0.9285
+val Loss: 0.1847 Acc: 0.9375
+Epoch 5/15
+----------
+train Loss: 0.1998 Acc: 0.9291
+val Loss: 0.1814 Acc: 0.9388
+Epoch 6/15
+----------
+train Loss: 0.1965 Acc: 0.9305
+val Loss: 0.1819 Acc: 0.9373
+성능 향상 X, 스탑 카운터 : 1
+Epoch 7/15
+----------
+train Loss: 0.1933 Acc: 0.9312
+val Loss: 0.1760 Acc: 0.9394
+성능 향상 X, 스탑 카운터 : 2
+Epoch 8/15
+----------
+train Loss: 0.1919 Acc: 0.9325
+val Loss: 0.1768 Acc: 0.9390
+성능 향상 X, 스탑 카운터 : 3
+Epoch 9/15
+----------
+train Loss: 0.1891 Acc: 0.9329
+val Loss: 0.1735 Acc: 0.9400
+Epoch 10/15
+----------
+train Loss: 0.1887 Acc: 0.9328
+val Loss: 0.1729 Acc: 0.9408
+성능 향상 X, 스탑 카운터 : 1
+Epoch 11/15
+----------
+train Loss: 0.1815 Acc: 0.9361
+val Loss: 0.1700 Acc: 0.9421
+Epoch 12/15
+----------
+train Loss: 0.1814 Acc: 0.9355
+val Loss: 0.1699 Acc: 0.9419
+성능 향상 X, 스탑 카운터 : 1
+Epoch 13/15
+----------
+train Loss: 0.1812 Acc: 0.9359
+val Loss: 0.1696 Acc: 0.9426
+성능 향상 X, 스탑 카운터 : 2
+Epoch 14/15
+----------
+train Loss: 0.1800 Acc: 0.9363
+val Loss: 0.1697 Acc: 0.9423
+성능 향상 X, 스탑 카운터 : 3
+Epoch 15/15
+----------
+train Loss: 0.1801 Acc: 0.9364
+[I 2025-11-27 07:13:24,365] Trial 23 finished with value: 0.9421344597689449 and parameters: {'lr': 0.0009894832315789927, 'model_name': 'convnext_tiny', 'epochs': 13, 'jitter_strength': 0.20074987292341256, 'scheduler_step': 10, 'weight_decay': 1.9327510571448716e-05, 'optimizer': 'AdamW'}. Best is trial 23 with value: 0.9421344597689449.
+val Loss: 0.1696 Acc: 0.9424
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 58m 48s
+Best val Acc: 0.9421
+Epoch 1/15
+----------
+train Loss: 0.3346 Acc: 0.8855
+val Loss: 0.2244 Acc: 0.9216
+Epoch 2/15
+----------
+train Loss: 0.2297 Acc: 0.9196
+val Loss: 0.2009 Acc: 0.9305
+Epoch 3/15
+----------
+train Loss: 0.2129 Acc: 0.9248
+val Loss: 0.1910 Acc: 0.9339
+Epoch 4/15
+----------
+train Loss: 0.2047 Acc: 0.9274
+val Loss: 0.1832 Acc: 0.9371
+Epoch 5/15
+----------
+train Loss: 0.1995 Acc: 0.9287
+val Loss: 0.1818 Acc: 0.9369
+성능 향상 X, 스탑 카운터 : 1
+Epoch 6/15
+----------
+train Loss: 0.1960 Acc: 0.9304
+val Loss: 0.1785 Acc: 0.9374
+성능 향상 X, 스탑 카운터 : 2
+Epoch 7/15
+----------
+train Loss: 0.1931 Acc: 0.9317
+val Loss: 0.1759 Acc: 0.9396
+Epoch 8/15
+----------
+train Loss: 0.1915 Acc: 0.9316
+val Loss: 0.1773 Acc: 0.9391
+성능 향상 X, 스탑 카운터 : 1
+Epoch 9/15
+----------
+train Loss: 0.1907 Acc: 0.9323
+val Loss: 0.1754 Acc: 0.9397
+성능 향상 X, 스탑 카운터 : 2
+Epoch 10/15
+----------
+train Loss: 0.1885 Acc: 0.9328
+val Loss: 0.1766 Acc: 0.9401
+성능 향상 X, 스탑 카운터 : 3
+Epoch 11/15
+----------
+train Loss: 0.1830 Acc: 0.9350
+val Loss: 0.1710 Acc: 0.9420
+Epoch 12/15
+----------
+train Loss: 0.1817 Acc: 0.9358
+val Loss: 0.1705 Acc: 0.9422
+성능 향상 X, 스탑 카운터 : 1
+Epoch 13/15
+----------
+train Loss: 0.1798 Acc: 0.9361
+val Loss: 0.1702 Acc: 0.9422
+성능 향상 X, 스탑 카운터 : 2
+Epoch 14/15
+----------
+train Loss: 0.1818 Acc: 0.9360
+val Loss: 0.1705 Acc: 0.9419
+성능 향상 X, 스탑 카운터 : 3
+Epoch 15/15
+----------
+train Loss: 0.1805 Acc: 0.9367
+[I 2025-11-27 08:12:34,866] Trial 24 finished with value: 0.9419817802432693 and parameters: {'lr': 0.0009614688545261776, 'model_name': 'convnext_tiny', 'epochs': 13, 'jitter_strength': 0.19783213558758725, 'scheduler_step': 10, 'weight_decay': 2.427931785958503e-05, 'optimizer': 'AdamW'}. Best is trial 23 with value: 0.9421344597689449.
+val Loss: 0.1699 Acc: 0.9425
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 59m 10s
+Best val Acc: 0.9420
+Epoch 1/15
+----------
+train Loss: 0.3279 Acc: 0.8882
+val Loss: 0.2228 Acc: 0.9247
+Epoch 2/15
+----------
+train Loss: 0.2281 Acc: 0.9199
+val Loss: 0.1988 Acc: 0.9305
+Epoch 3/15
+----------
+train Loss: 0.2117 Acc: 0.9253
+val Loss: 0.1900 Acc: 0.9341
+Epoch 4/15
+----------
+train Loss: 0.2028 Acc: 0.9286
+val Loss: 0.1842 Acc: 0.9357
+Epoch 5/15
+----------
+train Loss: 0.1984 Acc: 0.9298
+val Loss: 0.1815 Acc: 0.9366
+성능 향상 X, 스탑 카운터 : 1
+Epoch 6/15
+----------
+train Loss: 0.1953 Acc: 0.9307
+val Loss: 0.1774 Acc: 0.9387
+Epoch 7/15
+----------
+train Loss: 0.1938 Acc: 0.9316
+val Loss: 0.1754 Acc: 0.9395
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.1907 Acc: 0.9318
+val Loss: 0.1748 Acc: 0.9394
+성능 향상 X, 스탑 카운터 : 2
+Epoch 9/15
+----------
+train Loss: 0.1882 Acc: 0.9334
+val Loss: 0.1742 Acc: 0.9404
+Epoch 10/15
+----------
+train Loss: 0.1884 Acc: 0.9324
+val Loss: 0.1729 Acc: 0.9388
+성능 향상 X, 스탑 카운터 : 1
+Epoch 11/15
+----------
+train Loss: 0.1815 Acc: 0.9350
+val Loss: 0.1708 Acc: 0.9414
+Epoch 12/15
+----------
+train Loss: 0.1812 Acc: 0.9351
+val Loss: 0.1697 Acc: 0.9417
+성능 향상 X, 스탑 카운터 : 1
+Epoch 13/15
+----------
+train Loss: 0.1810 Acc: 0.9355
+val Loss: 0.1697 Acc: 0.9415
+성능 향상 X, 스탑 카운터 : 2
+Epoch 14/15
+----------
+train Loss: 0.1807 Acc: 0.9365
+val Loss: 0.1696 Acc: 0.9413
+성능 향상 X, 스탑 카운터 : 3
+Epoch 15/15
+----------
+train Loss: 0.1803 Acc: 0.9359
+[I 2025-11-27 09:11:19,050] Trial 25 finished with value: 0.9414219553157921 and parameters: {'lr': 0.000996400695357938, 'model_name': 'convnext_tiny', 'epochs': 13, 'jitter_strength': 0.1978436974333902, 'scheduler_step': 10, 'weight_decay': 4.052997951585831e-05, 'optimizer': 'AdamW'}. Best is trial 23 with value: 0.9421344597689449.
+val Loss: 0.1692 Acc: 0.9422
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 58m 44s
+Best val Acc: 0.9414
+Epoch 1/15
+----------
+train Loss: 0.4614 Acc: 0.8369
+val Loss: 0.3602 Acc: 0.8722
+Epoch 2/15
+----------
+train Loss: 0.3482 Acc: 0.8741
+val Loss: 0.3268 Acc: 0.8842
+Epoch 3/15
+----------
+train Loss: 0.3203 Acc: 0.8846
+val Loss: 0.3014 Acc: 0.8931
+Epoch 4/15
+----------
+train Loss: 0.3041 Acc: 0.8903
+val Loss: 0.2900 Acc: 0.8956
+Epoch 5/15
+----------
+train Loss: 0.2910 Acc: 0.8951
+[I 2025-11-27 09:30:07,843] Trial 26 pruned. 
+val Loss: 0.2928 Acc: 0.8975
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.5585 Acc: 0.8074
+val Loss: 0.4104 Acc: 0.8571
+Epoch 2/15
+----------
+train Loss: 0.4401 Acc: 0.8413
+val Loss: 0.3824 Acc: 0.8642
+Epoch 3/15
+----------
+train Loss: 0.4283 Acc: 0.8444
+val Loss: 0.3719 Acc: 0.8646
+성능 향상 X, 스탑 카운터 : 1
+Epoch 4/15
+----------
+train Loss: 0.4219 Acc: 0.8464
+val Loss: 0.3658 Acc: 0.8675
+Epoch 5/15
+----------
+train Loss: 0.4170 Acc: 0.8481
+[I 2025-11-27 09:38:54,862] Trial 27 pruned. 
+val Loss: 0.3630 Acc: 0.8673
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.7760 Acc: 0.7434
+val Loss: 0.5346 Acc: 0.8168
+Epoch 2/15
+----------
+train Loss: 0.5425 Acc: 0.8093
+val Loss: 0.4611 Acc: 0.8382
+Epoch 3/15
+----------
+train Loss: 0.5052 Acc: 0.8204
+val Loss: 0.4250 Acc: 0.8484
+Epoch 4/15
+----------
+train Loss: 0.4862 Acc: 0.8256
+val Loss: 0.4125 Acc: 0.8548
+Epoch 5/15
+----------
+train Loss: 0.4749 Acc: 0.8291
+[I 2025-11-27 09:50:19,532] Trial 28 pruned. 
+val Loss: 0.4036 Acc: 0.8557
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.7256 Acc: 0.7724
+val Loss: 0.4637 Acc: 0.8501
+Epoch 2/15
+----------
+train Loss: 0.4454 Acc: 0.8527
+val Loss: 0.3838 Acc: 0.8733
+Epoch 3/15
+----------
+train Loss: 0.3898 Acc: 0.8694
+val Loss: 0.3482 Acc: 0.8834
+Epoch 4/15
+----------
+train Loss: 0.3602 Acc: 0.8790
+val Loss: 0.3265 Acc: 0.8903
+Epoch 5/15
+----------
+train Loss: 0.3406 Acc: 0.8851
+[I 2025-11-27 10:09:58,905] Trial 29 pruned. 
+val Loss: 0.3113 Acc: 0.8947
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.3299 Acc: 0.8875
+val Loss: 0.2241 Acc: 0.9217
+Epoch 2/15
+----------
+train Loss: 0.2303 Acc: 0.9186
+val Loss: 0.2000 Acc: 0.9305
+Epoch 3/15
+----------
+train Loss: 0.2136 Acc: 0.9244
+val Loss: 0.1914 Acc: 0.9341
+Epoch 4/15
+----------
+train Loss: 0.2055 Acc: 0.9271
+val Loss: 0.1838 Acc: 0.9369
+Epoch 5/15
+----------
+train Loss: 0.2004 Acc: 0.9288
+val Loss: 0.1836 Acc: 0.9374
+성능 향상 X, 스탑 카운터 : 1
+Epoch 6/15
+----------
+train Loss: 0.1981 Acc: 0.9295
+val Loss: 0.1795 Acc: 0.9387
+Epoch 7/15
+----------
+train Loss: 0.1949 Acc: 0.9310
+val Loss: 0.1837 Acc: 0.9360
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.1937 Acc: 0.9323
+val Loss: 0.1779 Acc: 0.9393
+성능 향상 X, 스탑 카운터 : 2
+Epoch 9/15
+----------
+train Loss: 0.1922 Acc: 0.9322
+val Loss: 0.1759 Acc: 0.9396
+성능 향상 X, 스탑 카운터 : 3
+Epoch 10/15
+----------
+train Loss: 0.1852 Acc: 0.9345
+val Loss: 0.1727 Acc: 0.9410
+Epoch 11/15
+----------
+train Loss: 0.1845 Acc: 0.9353
+val Loss: 0.1726 Acc: 0.9419
+성능 향상 X, 스탑 카운터 : 1
+Epoch 12/15
+----------
+train Loss: 0.1847 Acc: 0.9347
+val Loss: 0.1725 Acc: 0.9411
+성능 향상 X, 스탑 카운터 : 2
+Epoch 13/15
+----------
+train Loss: 0.1842 Acc: 0.9355
+val Loss: 0.1724 Acc: 0.9412
+성능 향상 X, 스탑 카운터 : 3
+Epoch 14/15
+----------
+train Loss: 0.1840 Acc: 0.9354
+[I 2025-11-27 11:04:57,318] Trial 30 finished with value: 0.9410148099139904 and parameters: {'lr': 0.0009914624920606592, 'model_name': 'convnext_tiny', 'epochs': 12, 'jitter_strength': 0.19224794429481437, 'scheduler_step': 9, 'weight_decay': 8.481255857078967e-05, 'optimizer': 'Adam'}. Best is trial 23 with value: 0.9421344597689449.
+val Loss: 0.1721 Acc: 0.9416
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 54m 58s
+Best val Acc: 0.9410
+Epoch 1/15
+----------
+train Loss: 0.3302 Acc: 0.8873
+val Loss: 0.2220 Acc: 0.9239
+Epoch 2/15
+----------
+train Loss: 0.2294 Acc: 0.9200
+val Loss: 0.2008 Acc: 0.9292
+Epoch 3/15
+----------
+train Loss: 0.2139 Acc: 0.9247
+val Loss: 0.1922 Acc: 0.9337
+Epoch 4/15
+----------
+train Loss: 0.2051 Acc: 0.9279
+val Loss: 0.1827 Acc: 0.9359
+Epoch 5/15
+----------
+train Loss: 0.1995 Acc: 0.9292
+val Loss: 0.1813 Acc: 0.9368
+성능 향상 X, 스탑 카운터 : 1
+Epoch 6/15
+----------
+train Loss: 0.1961 Acc: 0.9297
+val Loss: 0.1812 Acc: 0.9381
+Epoch 7/15
+----------
+train Loss: 0.1945 Acc: 0.9312
+val Loss: 0.1798 Acc: 0.9379
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.1928 Acc: 0.9321
+val Loss: 0.1770 Acc: 0.9398
+Epoch 9/15
+----------
+train Loss: 0.1913 Acc: 0.9322
+val Loss: 0.1784 Acc: 0.9390
+성능 향상 X, 스탑 카운터 : 1
+Epoch 10/15
+----------
+train Loss: 0.1844 Acc: 0.9349
+val Loss: 0.1728 Acc: 0.9416
+Epoch 11/15
+----------
+train Loss: 0.1832 Acc: 0.9352
+val Loss: 0.1724 Acc: 0.9417
+성능 향상 X, 스탑 카운터 : 1
+Epoch 12/15
+----------
+train Loss: 0.1847 Acc: 0.9348
+val Loss: 0.1718 Acc: 0.9417
+성능 향상 X, 스탑 카운터 : 2
+Epoch 13/15
+----------
+train Loss: 0.1840 Acc: 0.9351
+val Loss: 0.1719 Acc: 0.9418
+성능 향상 X, 스탑 카운터 : 3
+Epoch 14/15
+----------
+train Loss: 0.1836 Acc: 0.9352
+[I 2025-11-27 12:00:00,277] Trial 31 finished with value: 0.9415746348414678 and parameters: {'lr': 0.000994985283885579, 'model_name': 'convnext_tiny', 'epochs': 12, 'jitter_strength': 0.19377608912242453, 'scheduler_step': 9, 'weight_decay': 7.330139332423543e-05, 'optimizer': 'Adam'}. Best is trial 23 with value: 0.9421344597689449.
+val Loss: 0.1720 Acc: 0.9419
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 55m 3s
+Best val Acc: 0.9416
+Epoch 1/15
+----------
+train Loss: 0.3710 Acc: 0.8762
+val Loss: 0.2426 Acc: 0.9155
+Epoch 2/15
+----------
+train Loss: 0.2438 Acc: 0.9149
+val Loss: 0.2117 Acc: 0.9262
+Epoch 3/15
+----------
+train Loss: 0.2236 Acc: 0.9214
+val Loss: 0.1985 Acc: 0.9321
+Epoch 4/15
+----------
+train Loss: 0.2122 Acc: 0.9251
+val Loss: 0.1926 Acc: 0.9333
+Epoch 5/15
+----------
+train Loss: 0.2061 Acc: 0.9270
+val Loss: 0.1883 Acc: 0.9351
+Epoch 6/15
+----------
+train Loss: 0.2014 Acc: 0.9288
+val Loss: 0.1835 Acc: 0.9383
+Epoch 7/15
+----------
+train Loss: 0.1978 Acc: 0.9300
+val Loss: 0.1793 Acc: 0.9380
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.1941 Acc: 0.9315
+val Loss: 0.1791 Acc: 0.9388
+성능 향상 X, 스탑 카운터 : 2
+Epoch 9/15
+----------
+train Loss: 0.1930 Acc: 0.9317
+val Loss: 0.1770 Acc: 0.9399
+Epoch 10/15
+----------
+train Loss: 0.1907 Acc: 0.9328
+val Loss: 0.1761 Acc: 0.9389
+성능 향상 X, 스탑 카운터 : 1
+Epoch 11/15
+----------
+train Loss: 0.1869 Acc: 0.9341
+val Loss: 0.1738 Acc: 0.9401
+성능 향상 X, 스탑 카운터 : 2
+Epoch 12/15
+----------
+train Loss: 0.1855 Acc: 0.9345
+val Loss: 0.1738 Acc: 0.9403
+성능 향상 X, 스탑 카운터 : 3
+Epoch 13/15
+----------
+train Loss: 0.1861 Acc: 0.9345
+[I 2025-11-27 12:51:06,008] Trial 32 pruned. 
+val Loss: 0.1733 Acc: 0.9404
+Trial pruned at epoch 12
+Epoch 1/15
+----------
+train Loss: 0.4287 Acc: 0.8596
+val Loss: 0.2671 Acc: 0.9084
+Epoch 2/15
+----------
+train Loss: 0.2630 Acc: 0.9090
+val Loss: 0.2268 Acc: 0.9212
+Epoch 3/15
+----------
+train Loss: 0.2359 Acc: 0.9178
+val Loss: 0.2099 Acc: 0.9266
+Epoch 4/15
+----------
+train Loss: 0.2238 Acc: 0.9220
+val Loss: 0.2032 Acc: 0.9292
+Epoch 5/15
+----------
+train Loss: 0.2148 Acc: 0.9246
+[I 2025-11-27 13:10:46,744] Trial 33 pruned. 
+val Loss: 0.1958 Acc: 0.9320
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 1.2240 Acc: 0.6332
+val Loss: 0.8115 Acc: 0.7545
+Epoch 2/15
+----------
+train Loss: 0.7340 Acc: 0.7649
+val Loss: 0.6361 Acc: 0.7942
+Epoch 3/15
+----------
+train Loss: 0.6207 Acc: 0.7926
+val Loss: 0.5646 Acc: 0.8125
+Epoch 4/15
+----------
+train Loss: 0.5665 Acc: 0.8071
+val Loss: 0.5227 Acc: 0.8238
+Epoch 5/15
+----------
+train Loss: 0.5353 Acc: 0.8154
+[I 2025-11-27 13:19:33,875] Trial 34 pruned. 
+val Loss: 0.4955 Acc: 0.8310
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.3599 Acc: 0.8783
+val Loss: 0.2345 Acc: 0.9181
+Epoch 2/15
+----------
+train Loss: 0.2373 Acc: 0.9173
+val Loss: 0.2065 Acc: 0.9282
+Epoch 3/15
+----------
+train Loss: 0.2181 Acc: 0.9235
+val Loss: 0.1940 Acc: 0.9337
+Epoch 4/15
+----------
+train Loss: 0.2088 Acc: 0.9261
+val Loss: 0.1876 Acc: 0.9352
+Epoch 5/15
+----------
+train Loss: 0.2027 Acc: 0.9282
+val Loss: 0.1830 Acc: 0.9378
+Epoch 6/15
+----------
+train Loss: 0.1986 Acc: 0.9297
+val Loss: 0.1796 Acc: 0.9382
+성능 향상 X, 스탑 카운터 : 1
+Epoch 7/15
+----------
+train Loss: 0.1954 Acc: 0.9310
+val Loss: 0.1782 Acc: 0.9390
+Epoch 8/15
+----------
+train Loss: 0.1923 Acc: 0.9321
+val Loss: 0.1773 Acc: 0.9388
+성능 향상 X, 스탑 카운터 : 1
+Epoch 9/15
+----------
+train Loss: 0.1923 Acc: 0.9316
+val Loss: 0.1769 Acc: 0.9393
+성능 향상 X, 스탑 카운터 : 2
+Epoch 10/15
+----------
+train Loss: 0.1898 Acc: 0.9325
+val Loss: 0.1745 Acc: 0.9404
+Epoch 11/15
+----------
+train Loss: 0.1836 Acc: 0.9351
+val Loss: 0.1727 Acc: 0.9408
+성능 향상 X, 스탑 카운터 : 1
+Epoch 12/15
+----------
+train Loss: 0.1842 Acc: 0.9347
+val Loss: 0.1728 Acc: 0.9407
+성능 향상 X, 스탑 카운터 : 2
+Epoch 13/15
+----------
+train Loss: 0.1838 Acc: 0.9348
+val Loss: 0.1721 Acc: 0.9409
+성능 향상 X, 스탑 카운터 : 3
+Epoch 14/15
+----------
+train Loss: 0.1838 Acc: 0.9353
+val Loss: 0.1718 Acc: 0.9415
+Epoch 15/15
+----------
+train Loss: 0.1835 Acc: 0.9348
+[I 2025-11-27 14:18:32,126] Trial 35 finished with value: 0.9414728484910173 and parameters: {'lr': 0.0007385772550150515, 'model_name': 'convnext_tiny', 'epochs': 12, 'jitter_strength': 0.2180869887437203, 'scheduler_step': 10, 'weight_decay': 2.4370087730630752e-06, 'optimizer': 'Adam'}. Best is trial 23 with value: 0.9421344597689449.
+val Loss: 0.1719 Acc: 0.9410
+성능 향상 X, 스탑 카운터 : 1
+Training complete in 58m 58s
+Best val Acc: 0.9415
+Epoch 1/15
+----------
+train Loss: 0.3590 Acc: 0.8795
+val Loss: 0.2345 Acc: 0.9190
+Epoch 2/15
+----------
+train Loss: 0.2380 Acc: 0.9162
+val Loss: 0.2086 Acc: 0.9269
+Epoch 3/15
+----------
+train Loss: 0.2181 Acc: 0.9231
+val Loss: 0.1958 Acc: 0.9319
+Epoch 4/15
+----------
+train Loss: 0.2083 Acc: 0.9266
+val Loss: 0.1863 Acc: 0.9368
+Epoch 5/15
+----------
+train Loss: 0.2033 Acc: 0.9281
+val Loss: 0.1818 Acc: 0.9377
+성능 향상 X, 스탑 카운터 : 1
+Epoch 6/15
+----------
+train Loss: 0.1997 Acc: 0.9292
+val Loss: 0.1831 Acc: 0.9382
+Epoch 7/15
+----------
+train Loss: 0.1952 Acc: 0.9313
+val Loss: 0.1795 Acc: 0.9389
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.1937 Acc: 0.9310
+val Loss: 0.1773 Acc: 0.9383
+성능 향상 X, 스탑 카운터 : 2
+Epoch 9/15
+----------
+train Loss: 0.1914 Acc: 0.9320
+val Loss: 0.1753 Acc: 0.9395
+Epoch 10/15
+----------
+train Loss: 0.1854 Acc: 0.9342
+val Loss: 0.1728 Acc: 0.9411
+Epoch 11/15
+----------
+train Loss: 0.1853 Acc: 0.9349
+val Loss: 0.1726 Acc: 0.9411
+성능 향상 X, 스탑 카운터 : 1
+Epoch 12/15
+----------
+train Loss: 0.1843 Acc: 0.9351
+val Loss: 0.1724 Acc: 0.9416
+성능 향상 X, 스탑 카운터 : 2
+Epoch 13/15
+----------
+train Loss: 0.1847 Acc: 0.9346
+val Loss: 0.1719 Acc: 0.9411
+성능 향상 X, 스탑 카운터 : 3
+Epoch 14/15
+----------
+train Loss: 0.1841 Acc: 0.9347
+[I 2025-11-27 15:13:45,471] Trial 36 finished with value: 0.9411165962644409 and parameters: {'lr': 0.0007463786392763385, 'model_name': 'convnext_tiny', 'epochs': 12, 'jitter_strength': 0.222356325444088, 'scheduler_step': 9, 'weight_decay': 2.785516745135285e-06, 'optimizer': 'Adam'}. Best is trial 23 with value: 0.9421344597689449.
+val Loss: 0.1720 Acc: 0.9416
+성능 향상 X, 스탑 카운터 : 4
+
+--- 얼리 스탑: 4 에폭 동안 성능 향상이 없어 훈련을 중단합니다. ---
+Training complete in 55m 13s
+Best val Acc: 0.9411
+Epoch 1/15
+----------
+train Loss: 0.3761 Acc: 0.8747
+val Loss: 0.2460 Acc: 0.9157
+Epoch 2/15
+----------
+train Loss: 0.2466 Acc: 0.9140
+val Loss: 0.2143 Acc: 0.9262
+Epoch 3/15
+----------
+train Loss: 0.2275 Acc: 0.9206
+val Loss: 0.2021 Acc: 0.9308
+Epoch 4/15
+----------
+train Loss: 0.2164 Acc: 0.9245
+val Loss: 0.1949 Acc: 0.9325
+Epoch 5/15
+----------
+train Loss: 0.2098 Acc: 0.9266
+val Loss: 0.1909 Acc: 0.9347
+Epoch 6/15
+----------
+train Loss: 0.2064 Acc: 0.9281
+val Loss: 0.1873 Acc: 0.9370
+Epoch 7/15
+----------
+train Loss: 0.2042 Acc: 0.9288
+val Loss: 0.1864 Acc: 0.9359
+성능 향상 X, 스탑 카운터 : 1
+Epoch 8/15
+----------
+train Loss: 0.1982 Acc: 0.9311
+[I 2025-11-27 15:45:09,700] Trial 37 pruned. 
+val Loss: 0.1839 Acc: 0.9369
+Trial pruned at epoch 7
+Epoch 1/15
+----------
+train Loss: 0.7443 Acc: 0.7605
+val Loss: 0.5094 Acc: 0.8266
+Epoch 2/15
+----------
+train Loss: 0.5017 Acc: 0.8250
+val Loss: 0.4426 Acc: 0.8471
+Epoch 3/15
+----------
+train Loss: 0.4620 Acc: 0.8360
+val Loss: 0.4144 Acc: 0.8550
+Epoch 4/15
+----------
+train Loss: 0.4438 Acc: 0.8423
+val Loss: 0.3982 Acc: 0.8605
+Epoch 5/15
+----------
+train Loss: 0.4332 Acc: 0.8438
+[I 2025-11-27 15:53:57,171] Trial 38 pruned. 
+val Loss: 0.3885 Acc: 0.8633
+Trial pruned at epoch 4
+Epoch 1/15
+----------
+train Loss: 0.7237 Acc: 0.7577
+val Loss: 0.5003 Acc: 0.8265
+Epoch 2/15
+----------
+train Loss: 0.5247 Acc: 0.8139
+val Loss: 0.4375 Acc: 0.8448
+Epoch 3/15
+----------
+train Loss: 0.4921 Acc: 0.8233

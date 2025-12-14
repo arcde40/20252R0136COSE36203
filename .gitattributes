@@ -1,0 +1,2 @@
+models filter=lfs diff=lfs merge=lfs -text
+models/final_convnext_tiny_acc_93.86.pth filter=lfs diff=lfs merge=lfs -text
